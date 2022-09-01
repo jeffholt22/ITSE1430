@@ -12,8 +12,6 @@ double payRate = Double.Parse(value);
 
 Console.WriteLine("Your pay is " + (hours * payRate));
 
-
-
 int x;
 double distanceFromMoon = 0;
 //distanceFromMoon = 0;
@@ -23,7 +21,7 @@ bool isPassing;
 string name;
 string firstName = "Bob", lastName = "Smith";
 
-firstName = lastName = name;
+//firstName = lastName = name;
 //firstName = "Sam";
 //lastName = "Sam";
 
@@ -35,9 +33,9 @@ firstName = lastName = name;
 
 
 //Block statement
-{
-    decimal payRate;
-}
+//{
+//    decimal payRate;
+//}
 
 //distanceFromMoon = 10.5;
 isPassing = distanceFromMoon > 0;
